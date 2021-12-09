@@ -1,0 +1,37 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url('./header.jpg') no-repeat center center fixed;
+  color: #fff;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 2px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;  
+}
+
+.cta {
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  color: #fff;
+  font-weight: bold;
+  background-color: #F05F44;
+}
+
+.cta:hover {
+  color: #fff;
+  background-color: #fd310d;
+}
+
+.cta:active {
+  background-color: rgb(255, 157, 157);
+}
